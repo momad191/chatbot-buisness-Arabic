@@ -1,0 +1,540 @@
+<!DOCTYPE html> 
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>فايز بوت | روبوت محادثة مخصص لبياناتك </title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="scss/skin.css">
+    <link rel="stylesheet" href="scss/chatbot.css">
+    <link rel="shortcut icon" href="img/robot-icon.png" />
+    <link rel="icon" href="img/robot-icon.png" type="image/x-icon" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="./script/index.js"></script>
+    <script src="./script/chatbot.js"></script>
+</head>
+
+<body id="wrapper">
+
+    <section id="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-7 col-xs-7 top-header-links">
+                    <ul class="contact_links">
+                        <li><i class="fa fa-phone"></i><a href="tel:+966551203580">+966551203580</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="#">faizbot@faizads.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5 col-sm-5 col-xs-5 social">
+                    <ul class="social_links">
+                        <li><a href="https://www.facebook.com/faizads1"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://x.com/faizads1"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/faizads-company-40b835259"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=12764775499&text=Hello" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                        <!-- <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+                        <a class="navbar-brand" href="#">    
+                            <h1> <img src="img/robot-chat-menu.jpg" />  </h1>  <span>  </span></a>
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav">
+                            <!-- <li><a href="#">Usecases</a></li>
+                            <li><a href="#">Become a partner</a></li> -->
+                            <li class="active"><a href="/index.html">الرئيسية</a></li>
+                            <li><a href="/usecasess.html">مجالات الاستخدام</a></li>
+                            <li><a href="/pricing.html">الأسعار</a></li>
+                            <li><a href="/about.html">الشركة</a></li>
+                            <li><a href="/portfolio.html">عملاء</a></li>
+                            <li><a href="/faq.html">أسئلة متكررة</a></li>
+                            <li><a href="/contact.html">اتصل بنا</a></li>
+                            <!-- <li><a href="login.html">Sign In</a></li>
+                            <li><a href="registration.html">Sign Up</a></li> -->
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                  
+                </div>
+            </div> 
+        </nav>
+    </header>
+    <!--/.nav-ends -->
+
+    <div id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('img/banner-slide-1.png');"></div>
+                <div class="carousel-caption slide-up">
+                    <h1 class="banner_heading">    مساعد دعم الذكاء الاصطناعي المتوفر على مدار الساعة <span> طوال أيام الأسبوع </span>  والذي يساعدك على تنمية أعمالك </h1>
+                    <p class="banner_txt">  يتولى روبوت المحادثة المدعوم بالذكاء الاصطناعي الخاص بنا مهمة توليد العملاء المحتملين وخدمة العملاء نيابةً عنك. فهو يقلل من تكاليف عملك من خلال تقديم ردود مخصصة تجعل عملائك سعداء </p>
+                    <div class="slider_btn">
+                        <button type="button" class="btn btn-default slide">اعرف أكثر <i class="fa fa-caret-right"></i></button>
+                        <button type="button" class="btn btn-primary slide">تعلم اكثر <i class="fa fa-caret-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="fill" style="background-image:url('img/banner-slide-2.jpg');"></div>
+                <div class="carousel-caption slide-up">
+                    <h1 class="banner_heading">    مساعد دعم الذكاء الاصطناعي المتوفر على مدار الساعة <span> طوال أيام الأسبوع </span>  والذي يساعدك على تنمية أعمالك </h1>
+                    <p class="banner_txt">  يتولى روبوت المحادثة المدعوم بالذكاء الاصطناعي الخاص بنا مهمة توليد العملاء المحتملين وخدمة العملاء نيابةً عنك. فهو يقلل من تكاليف عملك من خلال تقديم ردود مخصصة تجعل عملائك سعداء </p>
+                    <div class="slider_btn">
+                        <button type="button" class="btn btn-default slide">اعرف أكثر <i class="fa fa-caret-right"></i></button>
+                        <button type="button" class="btn btn-primary slide">تعلم اكثر <i class="fa fa-caret-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="fill" style="background-image:url('img/banner-slide-3.jpg');"></div>
+                <div class="carousel-caption slide-up">
+                    <h1 class="banner_heading">    مساعد دعم الذكاء الاصطناعي المتوفر على مدار الساعة <span> طوال أيام الأسبوع </span>  والذي يساعدك على تنمية أعمالك </h1>
+                    <p class="banner_txt">  يتولى روبوت المحادثة المدعوم بالذكاء الاصطناعي الخاص بنا مهمة توليد العملاء المحتملين وخدمة العملاء نيابةً عنك. فهو يقلل من تكاليف عملك من خلال تقديم ردود مخصصة تجعل عملائك سعداء </p>
+                    <div class="slider_btn">
+                        <button type="button" class="btn btn-default slide">اعرف أكثر <i class="fa fa-caret-right"></i></button>
+                        <button type="button" class="btn btn-primary slide">تعلم اكثر <i class="fa fa-caret-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <i class="fa fa-angle-left" aria-hidden="true"></i>
+            <span class="sr-only">سابق</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <span class="sr-only">التالي</span>
+        </a>
+
+    </div>
+
+    <section id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-12 block">
+                    <div class="col-md-2 col-xs-2"><i class="fa fa-dollar feature_icon"></i></div>
+                    <div class="col-md-10 col-xs-10">
+                        <h4> تخفيض تكاليف دعم العملاء </h4>
+                        <p>خفض ما يصل إلى 50% من تكاليف دعم العملاء لكل وكيل</p>
+                        <a href="#" class="readmore">اعرف اكثر <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12 block">
+                    <div class="col-md-2 col-xs-2"><i class="fa fa-clock-o feature_icon"></i></div>
+                    <div class="col-md-10 col-xs-10">
+                        <h4>استجابة أسرع بثلاث مرات</h4>
+                        <p>يستجيب برنامج المحادثة الخاص بنا أسرع بثلاث مرات من الإنسان</p>
+                        <a href="#" class="readmore">اعرف اكثر <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12 block">
+                    <div class="col-md-2 col-xs-2"><i class="fa fa-file-text feature_icon"></i></div>
+                    <div class="col-md-10 col-xs-10">
+                        <h4>عالي الدقة </h4>
+                        <p> يتمتع روبوت المحادثة الخاص بنا بدقة 100% في الإجابة على الأسئلة </p>
+                        <a href="#" class="readmore">اعرف اكثر <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+                   <div class="col-md-3 col-xs-12 block">
+                    <div class="col-md-2 col-xs-2"><i class="fa fa-weixin feature_icon"></i></div>
+                    <div class="col-md-10 col-xs-10">
+                        <h4>مساعد دعم على مدار الساعة طوال أيام الأسبوع </h4>
+                        <p>بالمقارنة مع الدعم القياسي، فإن برنامج المحادثة الآلي متاح على مدار الساعة طوال أيام الأسبوع لعملائك</p>
+                        <a href="#" class="readmore">اعرف اكثر <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <div class="image-holder col-lg-6 col-md-6 col-sm-6 col-xs-12 pull-left">
+            <div class="background-imgholder">
+                <img src="img/1.jpg" alt="about" class="img-responsive" style="display:none;" />
+            </div>
+        </div>
+
+        <div class="container-fluid">
+
+            <div class="col-md-7 col-md-offset-5 col-sm-8 col-sm-offset-2 col-xs-12 text-inner ">
+                <div class="text-block" style="direction: rtl;">
+                    <div class="section-heading">
+                        <h1>اعرف اكثر عن  <span>فايز بوت </span> </h1>
+                        <p class="subheading"> فايز بوت هو روبوت محادثة متقدم وذكي تم تصميمه بأحدث التقنيات للتفاعل مع المستخدمين من خلال فهم أسئلتهم وتقديم إجابات دقيقة. يمكنه فهم الاستفسارات والرد عليها في الوقت الفعلي، على مدار 24 ساعة في اليوم، وسبعة أيام في الأسبوع</p>
+                    </div>
+                    <h2> ساعد عملائك من خلال الذكاء الاصطناعي </h2>
+
+                    <ul class="aboutul">
+                        <li> <i class="fa fa-refresh"></i> تدريب على النصوص، ملفات PDF، الروابط يتم تدريب روبوتات الدردشة الخاصة بنا على مجموعة متنوعة من الصيغ.</li>
+                    
+                        <li> <i class="fa fa-weixin"></i> دعم مخصص 24/7
+                            لا مزيد من الانتظار حتى يستجيب الإنسان لعملائك.
+                        </li>
+                    
+                        <li> <i class="fa fa-share-alt"></i> توليد العملاء المحتملين
+                            يمكن لروبوتات الدردشة الخاصة بنا مساعدتك في توليد العملاء المحتملين.
+                        </li>
+                    
+                        <li> <i class="fa fa-file-text"></i> الذكاء الاصطناعي المدرب على المحتوى الخاص بك
+                            للحصول على إجابات دقيقة.
+                        </li>
+                    
+                        <li> <i class="fa fa-eye-slash"></i> التركيز على الخصوصية
+                            نحن لا نحفظ أيًا من بيانات زيارة عملائك.
+                        </li>
+                    
+                        <li> <i class="fa fa-paint-brush"></i> تصميم مخصص
+                            قم بتخصيص روبوت الدردشة ليتناسب مع موقعك.
+                        </li>
+                    
+                        <li> <i class="fa fa-clock-o"></i> إعداد في 5 دقائق
+                            احصل على روبوت الدردشة الخاص بك وتشغيله    
+                        </li>
+                    
+                        <li> <i class="fa fa-thumbs-o-up"></i> إجابات دقيقة
+                            احصل على الإجابات الصحيحة لعملائك.
+                        </li>
+                    
+                        <li> <i class="fa fa-globe"></i>  
+                            سواء كان عملاؤك من الولايات المتحدة الأمريكية، إسبانيا، ألمانيا، فرنسا أو أي مكان آخر، يتحدث روبوت الدردشة الخاص بنا لغتهم.
+                        </li>
+                    </ul>
+                    
+
+                    <button type="button" class="btn btn-primary slide">اعرف المزيد  <i class="fa fa-caret-right"></i> </button>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="process" style="direction: rtl;">
+        <div class="container">
+            <div class="section-heading text-center">
+                <div class="col-md-12 col-xs-12">
+                    <h1>ماذا <span>نعمل</span></h1>
+                    <p class="subheading"> مساعد دعم الذكاء الاصطناعي المتوفر على مدار الساعة طوال أيام الأسبوع والذي يساعدك على تنمية أعمالك</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 block process-block">
+                    <div class="process-icon-holder">
+                        <div class="process-border">
+                            <span class="process-icon"><a href="#"><i class="fa fa-cloud-download  feature_icon"></i></a></span></div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="process-text-block">
+                        <h4><a href="#">استيراد بياناتك بسهولة</a></h4>
+                        <p>كل ما تحتاجه هو 3 دقائق فقط لاستيراد بياناتك</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 block process-block">
+                    <div class="process-icon-holder">
+                        <div class="process-border">
+                            <span class="process-icon"><a href="#"><i class="fa fa-cog feature_icon"></i></a></span></div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="process-text-block">
+                        <h4><a href="#"> تدريب GPT المتقدم</a></h4>
+                        <p>تعتمد برامج المحادثة الخاصة بنا على أحدث تقنيات الذكاء الاصطناعي ومعالجة اللغة الطبيعية المتاحة</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 block process-block">
+                    <div class="process-icon-holder">
+                        <div class="process-border">
+                            <span class="process-icon"><a href="#"><i class="fa fa-magic feature_icon"></i></a></span></div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="process-text-block">
+                        <h4><a href="#"> قم بتخصيص علامتك التجارية ومطابقتها</a></h4>
+                        <p>يمكن لروبوت المحادثة الذي يحمل علامة تجارية مميزة أن يميز خدمة العملاء الخاصة بك عن المنافسين</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 block process-block lastchild">
+                    <div class="process-icon-holder">
+                        <div class="process-border">
+                            <span class="process-icon"><a href="#"><i class="fa fa-code feature_icon"></i></a></span></div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="process-text-block">
+                        <h4><a href="#">أضفه إلى موقع الويب الخاص بك</a></h4>
+                        <p>لا حاجة لمهارات البرمجة أو الدعم الفني من فريقك ببضع نقرات فقط يكون برنامج المحادثة الآلي جاهزًا لك</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="testimonial">
+        <div class="container">
+            <div class="section-heading text-center">
+                <div class="col-md-12 col-xs-12">
+                    <h1>ماذا قال عنا <span>العملاء</span></h1>
+                    <p class="subheading">  شاهد آراء العملاء في الحلول التي نقدمها للدردشة الآلية </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12 block ">
+                    <div class="testimonial_box">
+                        <p style="direction: rtl;">   
+                            "لا يبدو الأمر وكأنه مجرد أداة؛ بل يبدو وكأنه امتداد لفريقنا. وكانت ردود الفعل من عملائنا إيجابية للغاية."
+                        </p>
+                    </div>
+                    <div class="arrow-down"></div>
+                    <div class="testimonial_user">
+                        <div class="user-image">
+                            <!--<img src="img/user1.png" alt="user" class="img-responsive" /> -->
+                            <i class="fa fa-user fa-4x  feature_icon"></i>
+                        </div>
+                         <div class="user-info">
+                            <h5>أبو بكر  </h5>
+                            <p style="direction: rtl;">ادارة دعم العملاء في aql3.com  </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-sm-12 block">
+                    <div class="testimonial_box">
+                        <p style="direction: rtl;"> 
+                            "هذا هو بالضبط ما كنت أبحث عنه. فهو يشرك زوار موقعنا في الحصول على الإجابات الصحيحة ويجمع معلوماتهم، وبالتالي نحصل على المزيد من العملاء المحتملين."
+                        </p>
+                    </div>
+                    <div class="arrow-down"></div>
+                    <div class="testimonial_user">
+                        <div class="user-image">
+                            <!--<img src="img/user1.png" alt="user" class="img-responsive" /> -->
+                            <i class="fa fa-user fa-4x  feature_icon"></i>
+                        </div>
+                         <div class="user-info">
+                            <h5>لارين </h5>
+                            <p style="direction: rtl;">ادارة موقع Cameleast.com </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12 block">
+                    <div class="testimonial_box">
+                        <p style="direction: rtl;">
+                            "يوفر برنامج الدردشة هذا الدعم كلما احتاجه العملاء، مما يجعل خدمتنا متاحة على مدار الساعة طوال أيام الأسبوع. إنه أمر يغير قواعد اللعبة، حيث ليس لدينا فريق كبير للتعامل مع جميع الطلبات."
+                        </p>
+                    </div>
+                    <div class="arrow-down"></div>
+                    <div class="testimonial_user">
+                        <div class="user-image">
+                            <!--<img src="img/user1.png" alt="user" class="img-responsive" /> -->
+                            <i class="fa fa-user fa-4x  feature_icon"></i>
+                        </div>
+                        <div class="user-info">
+                            <h5>نهى شاكر</h5>
+                            <p style="direction: rtl;"> كبير المصممين في شركة sharq24</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    
+ 
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>فايز بوت</h4>
+                        <hr/>
+                        <p>مساعد دعم الذكاء الاصطناعي المتوفر على مدار الساعة طوال أيام الأسبوع والذي يساعدك على تنمية أعمالك </p>
+                        <a href="#" class="learnmore">اعرف اكثر <i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>روابط</h4>
+                        <hr/>
+                        <ul class="footer-links">
+                            <li><a href="/about.html">من نحن</a></li>
+                            <li><a href="/pricing.html">الأسعار</a></li>
+                            <li><a href="/portfolio.html">عملاء</a></li>
+                            <li><a href="/contact.html">تواصل معنا</a></li>
+                            <!-- <li><a href="#">Sign In</a></li>
+                            <li><a href="#">Sign Up</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12 block">
+                    <div class="footer-block">
+                        <h4>مجالات الاستخدام</h4>
+                        <hr/>
+                        <ul class="footer-links">
+                            <li><a href="/usecasess-book-authors.html"> مؤلفو الكتب </a></li>
+                            <li><a href="/usecasess-Coaches.html"> المدربين</a></li>
+                            <li><a href="/usecasess-course-creators.html"> منشئو الدورة التعليمية </a></li>
+                            <li><a href="/usecasess-entrepreneurs.html"> رواد الأعمال</a></li>
+                            <li><a href="/usecasess-musicians.html"> الموسيقيين </a></li>
+                            <li><a href="/usecasess-podcasters.html"> مُقدمو البودكاست </a></li>
+                            <li><a href="/usecasess-web3-enthusiasts.html"> عشاق الويب 3.0</a></li>
+                            <li><a href="/usecasess-jewelry-store-owners.html"> أصحاب محلات المجوهرات </a></li>
+
+                            <!-- <li><a href="#">Blog</a></li>
+                            <li><a href="#">Forum</a></li>
+                            <li><a href="#">Free Goods</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+ 
+                <!-- <div class="col-md-3 col-sm-3 col-xs-12 <block></block>">
+                    <div class="footer-block">
+                        <h4>Getting Started </h4>
+                        <hr/>
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#" class="post">How to Start</a>
+                                <p class="post-date">Aug 25, 2024</p>
+                            </li>
+                            <li>
+                                <a href="#" class="post">How to Train</a>
+                                <p class="post-date">Aug 25, 2024</p>
+                            </li>
+                            <li>
+                                <a href="#" class="post">How to Install</a>
+                                <p class="post-date">Aug 25, 2024</p>
+                            </li>
+                            <li>
+                                <a href="#" class="post">Become a partner</a>
+                                <p class="post-date">Aug 25, 2024</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="bottom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 btm-footer-links">
+                    <a href="privacy.html">سياسة الخصوصية</a>
+                    <a href="terms.html">شروط الاستخدام</a>
+                    <a href="cookie-policy.html">سياسة ملفات تعريف الارتباط </a>
+                    <!-- <a href="#">GDPR Definitions </a> -->
+                   
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 copyright" style="direction: rtl;">
+                    جميع الحقوق محفوظة. حقوق الطبع والنشر ©2024 فايز بوت <a href="/"></a> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <div id="panel">
+        <div id="panel-admin">
+            <div class="panel-admin-box">
+                <div id="tootlbar_colors">
+                    <button class="color" style="background-color:#1abac8;" onclick="mytheme(0)"></button>
+                    <button class="color" style="background-color:#ff8a00;" onclick="mytheme(1)"> </button>
+                    <button class="color" style="background-color:#b4de50;" onclick="mytheme(2)"> </button>
+                    <button class="color" style="background-color:#e54e53;" onclick="mytheme(3)"> </button>
+                    <button class="color" style="background-color:#1abc9c;" onclick="mytheme(4)"> </button>
+                    <button class="color" style="background-color:#159eee;" onclick="mytheme(5)"> </button>
+                </div>
+            </div>
+
+        </div> 
+        <a class="open" href="#"><span><i class="fa fa-gear fa-spin"></i></span></a>
+    </div> -->
+
+
+       <!-- Chatbot Icon -->
+       <div id="chatbot-icon" onclick="toggleChat()">
+        <img src="img/user1.png" alt="Chatbot Icon">
+        <!-- <i class="fa fa-weixin fa-2x" aria-hidden="true" style="color: #fff;"></i> -->
+       </div>
+
+
+
+           <!-- Chatbot Icon -->
+           <div id="chatbot-icon" onclick="toggleChat()">
+            <img src="img/user1.png" alt="Chatbot Icon">
+            <!-- <i class="fa fa-weixin fa-2x" aria-hidden="true" style="color: #fff;"></i> -->
+        </div>
+    
+        <!-- Chatbot Popup --> 
+        <div id="chatbot-popup" class="hidden">
+            <div id="chatbot-header">
+                <span>Chat with us!</span>
+                <button id="close-btn" onclick="toggleChat()"> 
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div id="chatbot-body">
+                <!-- Chat content will appear here --> 
+            </div>
+            <div id="chatbot-input">
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button id="send-btn" onclick="sendMessage()">
+                    <!-- <img src="send-icon.png" alt="Send"> -->
+                   
+                    <i class="fa fa-paper-plane fa-2x" aria-hidden="true" style="color: #fff;"></i>
+                </button>
+            </div>
+        </div>
+
+ 
+
+</html>
