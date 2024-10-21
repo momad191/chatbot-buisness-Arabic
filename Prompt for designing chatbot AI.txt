@@ -1,0 +1,22 @@
+Creat front-end design using HTML, CSS, JavaScript for chatbot for my website to assiste the website visitors 
+the design features:
+
+- put the chatbot icon in the bottom and right side of the web page 
+- when click the icon make the chatbot appear as a pop up  dialog in the same page, and close the pop up chatbot (X) or (close)
+- make the appearance or the style color of the pop up of the chatbot in cyan (#1abac8)  and littel black color
+- make the dialog responsive for all screens and devices, with radius css shape 
+- make the pop up chatbot animated css and look more modern css and captivated for our website visitors 
+- make the text input for the visitor with animated circel button for send the messages 
+- make the area to display the messages with elaborate and difrentiate the messages of the visitor and the messages of the AI bot assistant with different  dummy images(avatars)
+- make the area to display the messages  with scroll bar of cyan (#1abac8)  and hover black color
+- make the scroll bar updated to be end continuslly to display the latest messages of the Ai assistance and the visitor messages
+- make a loading for seconds for the response and design animated three dots as flash
+- after loading make the reponse appear as streaming word by word , as some typing like human on the keyboard like matrix man 
+- display the scrollbar also to make the user return back to the old conversation 
+- make the press enter key, automatically trigger an enter key press event after a certain action is executed?
+
+
+ 
+
+
+
